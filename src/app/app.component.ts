@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intro';
+
+  showBlog = true
+
+  hide():void {
+    this.showBlog = false
+  }
 }
